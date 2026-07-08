@@ -4710,7 +4710,7 @@ const CTFEventsCard = () => {
    WRITE-UPS SUBSECTION  —  unchanged (placeholder + grid when populated)
 ══════════════════════════════════════════════════════════════════════════════ */
 const WriteupsPlaceholder = () => {
-  const [hovered, setHovered] = React.useState(false);
+  const [hovered, setHovered] = useState(false);
   return (
   <div>
     <motion.div
