@@ -1,10 +1,10 @@
 import { useState, useEffect, useRef } from "react";
 import { motion, AnimatePresence, useScroll, useTransform, useMotionValue, useSpring } from "framer-motion";
+import { Analytics } from '@vercel/analytics/react';
 import { AuthProvider, useAuth } from "./lib/AuthContext";
 import AdminLoginModal from "./components/AdminLoginModal";
 import CVButton from "./components/CVButton";
 import { useSiteContent } from "./lib/useSiteContent";
-import { Analytics } from "@vercel/analytics/react";
 
 /* ── GLOBAL STYLES ─────────────────────────────────────────────────────────── */
 const G = `
@@ -5406,7 +5406,7 @@ export default function App() {
   return (
     <AuthProvider>
       <PortfolioApp />
-      <Analytics />
+          <Analytics />
     </AuthProvider>
   );
 }
