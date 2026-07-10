@@ -5,7 +5,6 @@ import { AuthProvider, useAuth } from "./lib/AuthContext";
 import AdminLoginModal from "./components/AdminLoginModal";
 import CVButton from "./components/CVButton";
 import { useSiteContent } from "./lib/useSiteContent";
-import { Analytics } from "@vercel/analytics/react";
 
 /* ── GLOBAL STYLES ─────────────────────────────────────────────────────────── */
 const G = `
