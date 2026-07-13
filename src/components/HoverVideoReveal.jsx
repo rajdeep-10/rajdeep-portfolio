@@ -25,7 +25,7 @@ const HoverVideoReveal = ({ src, children }) => {
 
   return (
     <div
-      style={{ position: "relative", display: "inline-flex" }}
+      style={{ position: "relative", display: "inline-flex", cursor: "default", userSelect: "none" }}
       onMouseEnter={handleEnter}
       onMouseLeave={handleLeave}
     >
@@ -59,7 +59,7 @@ const HoverVideoReveal = ({ src, children }) => {
             loop
             muted
             playsInline
-            preload="metadata"
+            preload="auto"
             style={{ width: "100%", height: "auto", display: "block" }}
           />
         </div>
