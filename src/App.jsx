@@ -936,6 +936,7 @@ const HeroSection = () => {
         }}
       >
         {/* Logo */}
+        <HoverVideoReveal src="/Batman.mp4">
         <div style={{ display:"flex", alignItems:"center", gap:"10px" }}>
           <img
             src={LOGO_IMG_B64}
@@ -956,6 +957,7 @@ const HeroSection = () => {
             </div>
           </div>
         </div>
+        </HoverVideoReveal>
 
         {/* Nav links */}
         <div style={{ display:"flex", gap:"clamp(1.5rem,4vw,3.5rem)", alignItems:"center" }}>
