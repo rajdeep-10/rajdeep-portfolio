@@ -4,6 +4,7 @@ import { Analytics } from '@vercel/analytics/react';
 import { AuthProvider, useAuth } from "./lib/AuthContext";
 import AdminLoginModal from "./components/AdminLoginModal";
 import CVButton from "./components/CVButton";
+import HoverVideoReveal from "./components/HoverVideoReveal";
 import { useSiteContent } from "./lib/useSiteContent";
 
 /* ── GLOBAL STYLES ─────────────────────────────────────────────────────────── */
